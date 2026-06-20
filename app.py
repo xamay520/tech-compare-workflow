@@ -70,7 +70,7 @@ def generate_report(solution_a, solution_b, use_case):
 
 @app.route('/check_health', methods=['GET'])
 def health():
-    return jsonify({"status": "healthy", "service": "tech-compare", "version": "1.0.0"})
+    return jsonify({"status": "healthy", "service": "tech-compare", "version": "1.1.0"})
 
 @app.route('/submit_task', methods=['POST'])
 def submit():
